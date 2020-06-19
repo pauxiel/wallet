@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    width:100%;
+    background-color: skyblue;
+}
+
+.nav-list > li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.reset-button{
+    border: 2px solid skyblue;
+    color: skyblue;
+    font-weight: 800;
+    border-radius: 40px;
+}
+
+.submit-button{
+    border: 2px solid skyblue;
+    color: skyblue;
+    font-weight: 800;
+    border-radius: 40px;
+}
+ 
+
+.footer > ul {
+    list-style: none;
+}
+
+.footer > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer > ul > li > a {
+    color: skyblue;
+    text-decoration: none;
+}
